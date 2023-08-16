@@ -1,0 +1,102 @@
+body {
+  margin: 0px;
+}
+
+.cv-document {
+  box-sizing: border-box;
+  border: none;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: arial, sans-serif, tahoma;
+  font-size: 10pt;
+}
+
+.cv-page {
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+  text-decoration: none;
+  width: 650px;
+  min-height: 900px;
+  margin: 0 auto;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+  background-color: #fff;
+  position: relative;
+  padding: 40px 40px 80px 40px;
+}
+/* #info .section {
+  padding: 40px 0px 40px 0px;
+} */
+.section-title {
+  text-transform: uppercase;
+  font-weight: bold;
+  border-bottom: solid 1px;
+  margin-bottom: 7px;
+}
+
+.children {
+  display: inline-block;
+  font-size: 12px;
+}
+#con2 {
+  margin-left: 25px;
+}
+.info {
+  display: inline-block;
+}
+#img.info {
+  float: right;
+}
+
+.section {
+  padding-top: 20px;
+}
+.Time1,
+.Time2,
+.Time3,
+.Time4 {
+  display: inline-block;
+  vertical-align: top;
+  width: 190px;
+}
+.Job1,
+.Job2,
+.Job3,
+.Job4 {
+  display: inline-block;
+  width: 69%;
+}
+.Line1,
+.Line2,
+.Line3,
+.Line4,
+#contact .section-content {
+  border-bottom: solid 1px;
+  border-color: rgb(200, 228, 228);
+  padding: 10px 0px 10px 0px;
+}
+
+#skill .Time1,
+#skill .Time2,
+#skill .Time3,
+#skill .Time4 {
+  font-weight: 700;
+}
+ul,
+ol {
+  padding-left: 20px;
+}
+.Project h2 {
+  margin: 20px 0px 3px 0px;
+}
+.Project p {
+  margin: 0px 0px 10px 0px;
+}
